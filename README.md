@@ -8,7 +8,6 @@ This guide walks contributors through:
 2. Cloning the **`edp-analytics`** repository (**devtest** branch)
 3. Locating **Power BI (.pbib)** workspace files
 4. Connecting the Power BI semantic model to **Databricks SQL Warehouse**
-
 ---
 
 ## Table of Contents
@@ -21,7 +20,6 @@ This guide walks contributors through:
 - [Troubleshooting](#troubleshooting)
 - [Screenshot Management](#screenshot-management)
 - [Summary](#summary)
-
 ---
 
 ## Prerequisites
@@ -42,10 +40,6 @@ Before starting, ensure you have:
 Download GitHub Desktop from:
 
 - https://desktop.github.com/download/
-
-![GitHub Desktop download page](docs/images/01-github-desktop-download.png)
-
-
 ---
 
 ### 1.2 Install GitHub Desktop
@@ -54,8 +48,7 @@ Download GitHub Desktop from:
 2. Accept default installation settings
 3. Launch GitHub Desktop after installation completes
 
-**Screenshot (optional):** `docs/images/02-github-desktop-installed.png`
-
+![GitHub Desktop download page](docs/images/01-github-desktop-download.png)
 ---
 
 ### 1.3 Sign In to GitHub
@@ -67,7 +60,7 @@ Download GitHub Desktop from:
 3. Click **Sign in to GitHub.com**
 4. Complete authentication in your browser
 
-**Screenshot (optional):** `docs/images/03-github-desktop-signed-in.png`
+
 
 ✅ GitHub Desktop is now connected to your GitHub account.
 
@@ -77,7 +70,7 @@ Download GitHub Desktop from:
 
 Repository URL (devtest branch):
 
-- https://github.com/Childrens-National-Hospital/edp-analytics/tree/devtest
+![GitHub Desktop download page](docs/images/04-github-code-oipen-desktop.png)
 
 ---
 
@@ -88,9 +81,7 @@ Repository URL (devtest branch):
 3. Choose a local folder (or accept the default)
 4. Click **Clone**
 
-**Screenshots (optional):**
-- `docs/images/04-github-code-open-desktop.png`
-- `docs/images/05-desktop-clone-dialog.png`
+![GitHub Desktop download page](docs/images/05-github-desktop-branch.png)
 
 ---
 
