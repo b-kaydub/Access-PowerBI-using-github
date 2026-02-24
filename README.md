@@ -40,6 +40,8 @@ Before starting, ensure you have:
 Download GitHub Desktop from:
 
 - https://desktop.github.com/download/
+
+![GitHub Desktop download page](docs/images/01-github-desktop-download.png)
 ---
 
 ### 1.2 Install GitHub Desktop
@@ -48,7 +50,7 @@ Download GitHub Desktop from:
 2. Accept default installation settings
 3. Launch GitHub Desktop after installation completes
 
-![GitHub Desktop download page](docs/images/01-github-desktop-download.png)
+![GitHub Desktop download page](docs/images/02-github-desktop-installed.png)
 ---
 
 ### 1.3 Sign In to GitHub
@@ -70,7 +72,7 @@ Download GitHub Desktop from:
 
 Repository URL (devtest branch):
 
-![GitHub Desktop download page](docs/images/04-github-code-oipen-desktop.png)
+
 
 ---
 
@@ -81,8 +83,7 @@ Repository URL (devtest branch):
 3. Choose a local folder (or accept the default)
 4. Click **Clone**
 
-![GitHub Desktop download page](docs/images/05-github-desktop-branch.png)
-
+![GitHub Desktop download page](docs/images/04-github-code-oipen-desktop.png)
 ---
 
 ### 2.2 Verify Branch Selection
@@ -98,7 +99,7 @@ If not:
 1. Click **Current Branch**
 2. Select **devtest**
 
-**Screenshot (optional):** `docs/images/06-branch-devtest.png`
+![GitHub Desktop download page](docs/images/05-github-desktop-branch.png)
 
 ---
 
@@ -110,8 +111,8 @@ In GitHub Desktop:
 
 - **Repository → Show in Explorer** (Windows)
 - **Repository → Show in Finder** (Mac)
-
-**Screenshot (optional):** `docs/images/07-show-in-explorer.png`
+- 
+![GitHub Desktop download page](docs/images/06-github-desktop-clone.png)
 
 ---
 
@@ -124,7 +125,7 @@ edp-analytics/
 └── workspaces/
 ```
 
-**Screenshot (optional):** `docs/images/08-workspaces-folder.png`
+![GitHub Desktop download page](docs/images/07-github-desktop-folder.png)
 
 GitHub reference:
 
