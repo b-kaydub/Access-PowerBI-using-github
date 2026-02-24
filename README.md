@@ -33,9 +33,13 @@ Before starting, ensure you have:
 ## 1. Install and Configure GitHub Desktop
 
 ### 1.1 Download GitHub Desktop
+Once signed into github, if you're not already on the home screen, find your way home by on the github logo on the top left corner:
+![GitHub Desktop download page](docs/images/00-github-desktop-dashboard.png)
 
-Download GitHub Desktop from:
+Your home screen should have a link to download github desktop:
+![GitHub Desktop download page](docs/images/00-github-desktop-dashboard-b.png)
 
+Otherwise, you can download GitHub Desktop from:
 - https://desktop.github.com/download/
 
 ![GitHub Desktop download page](docs/images/01-github-desktop-download.png)
