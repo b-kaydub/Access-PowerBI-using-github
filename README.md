@@ -138,13 +138,13 @@ GitHub reference:
 Within the `workspaces/` directory, locate a file ending in:
 
 ```text
-.pbib
+.pbib - aka: Microsoft Power BI Desktop Project
 ```
 
 Example:
 
 ```text
-edp_workspace.pbib
+Ambulatory and Productivity.pbib
 ```
 
 This `.pbib` file typically contains:
@@ -189,20 +189,15 @@ Use the following values exactly:
 **Server Hostname**
 
 ```text
-adb-4066047606628959.19.azuredatabricks.net
+adb-3049177421157142.2.azuredatabricks.net
 ```
 
 **HTTP Path**
 
 ```text
-/sql/1.0/warehouses/6372a0a3911012ac
+/sql/1.0/warehouses/1a9df0f17c5697b7
 ```
 
-**Data Source Type**
-
-```text
-Azure Databricks
-```
 ![GitHub Desktop download page](docs/images/12-change-source.png)
 
 This connects the semantic model to the **team_data_product_management** SQL Warehouse.
@@ -210,8 +205,7 @@ This connects the semantic model to the **team_data_product_management** SQL War
 ---
 
 ### 4.5 Authenticate
-
-When prompted:
+If necessary, when prompted:
 
 - Select **Microsoft account / Azure Active Directory**
 - Sign in using your organizational credentials
@@ -229,6 +223,7 @@ When prompted:
 ---
 
 ## Troubleshooting
+Find me if you have errors.
 
 | Issue | Resolution |
 |------|------------|
