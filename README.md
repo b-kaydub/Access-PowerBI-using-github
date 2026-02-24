@@ -149,8 +149,8 @@ edp_workspace.pbib
 
 This `.pbib` file typically contains:
 ![GitHub Desktop download page](docs/images/09-github-desktop-folder-location.png)
-![GitHub Desktop download page](docs/images/08-github-desktop-pbib.png)
 
+![GitHub Desktop download page](docs/images/08-github-desktop-pbib.png)
 ---
 
 ## 4. Connect Power BI to the Databricks Semantic Layer
@@ -161,9 +161,6 @@ Open the `.pbib` file by:
 
 - Double‑clicking the file
 - **OR** Right‑click → **Open with → Power BI Desktop**
-
-**Screenshot (optional):** `docs/images/10-powerbi-opened.png`
-
 ---
 
 ### 4.2 Open Data Source Settings
@@ -173,8 +170,7 @@ In Power BI Desktop:
 1. Select **Transform data**
 2. Click **Data source settings**
 
-**Screenshot (optional):** `docs/images/11-data-source-settings.png`
-
+![GitHub Desktop download page](docs/images/11-data-source-settings.png)
 ---
 
 ### 4.3 Update the Databricks Connection
@@ -182,7 +178,7 @@ In Power BI Desktop:
 1. Select the existing **Databricks** data source
 2. Click **Change Source**
 
-**Screenshot (optional):** `docs/images/12-change-source.png`
+![GitHub Desktop download page](docs/images/13-databricks-host-path.png)
 
 ---
 
@@ -207,8 +203,7 @@ adb-4066047606628959.19.azuredatabricks.net
 ```text
 Azure Databricks
 ```
-
-**Screenshot (optional):** `docs/images/13-databricks-host-path.png`
+![GitHub Desktop download page](docs/images/12-change-source.png)
 
 This connects the semantic model to the **team_data_product_management** SQL Warehouse.
 
@@ -220,9 +215,6 @@ When prompted:
 
 - Select **Microsoft account / Azure Active Directory**
 - Sign in using your organizational credentials
-
-**Screenshot (optional):** `docs/images/14-authentication.png`
-
 ---
 
 ### 4.6 Apply Changes and Refresh
@@ -230,7 +222,7 @@ When prompted:
 1. Click **Close & Apply**
 2. Click **Refresh**
 
-**Screenshot (optional):** `docs/images/15-refresh.png`
+![GitHub Desktop download page](docs/images/15-refresh.png)
 
 ✅ If successful, report visuals will populate using data from Databricks.
 
@@ -243,33 +235,6 @@ When prompted:
 | Authentication failure | Confirm you have access to the Databricks SQL Warehouse (and re-authenticate in **Data source settings → Edit Permissions**) |
 | Missing tables/views | Verify the correct catalog and schema are used (and that your identity has access) |
 | Refresh errors | Re-check the **Server Hostname** and **HTTP Path** for typos |
-
-**Screenshot (optional):** `docs/images/16-error-example.png`
-
----
-
-## Screenshot Management
-
-Recommended screenshot folder:
-
-```text
-docs/images/
-```
-
-Guidelines:
-
-- Use `.png` format
-- Do not expose credentials, tokens, or private identifiers
-- Blur/redact sensitive info before committing
-- Suggested naming convention:
-
-```text
-01-github-desktop-download.png
-02-github-desktop-installed.png
-03-github-desktop-signed-in.png
-...
-```
-
 ---
 
 ## Summary
