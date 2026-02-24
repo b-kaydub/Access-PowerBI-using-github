@@ -18,8 +18,6 @@ This guide walks contributors through:
 - [3. Locate Power BI Workspace Files](#3-locate-power-bi-workspace-files)
 - [4. Connect Power BI to the Databricks Semantic Layer](#4-connect-power-bi-to-the-databricks-semantic-layer)
 - [Troubleshooting](#troubleshooting)
-- [Screenshot Management](#screenshot-management)
-- [Summary](#summary)
 ---
 
 ## Prerequisites
@@ -30,7 +28,6 @@ Before starting, ensure you have:
 - **Power BI Desktop** installed
 - Access to the **team_data_product_management** Databricks SQL Warehouse
 - Organizational authentication configured (Azure Active Directory / SSO)
-
 ---
 
 ## 1. Install and Configure GitHub Desktop
@@ -62,8 +59,6 @@ Download GitHub Desktop from:
 3. Click **Sign in to GitHub.com**
 4. Complete authentication in your browser
 
-
-
 ✅ GitHub Desktop is now connected to your GitHub account.
 
 ---
@@ -71,9 +66,6 @@ Download GitHub Desktop from:
 ## 2. Clone the Repository (devtest Branch)
 
 Repository URL (devtest branch):
-
-
-
 ---
 
 ### 2.1 Clone Using GitHub Desktop
@@ -100,7 +92,6 @@ If not:
 2. Select **devtest**
 
 ![GitHub Desktop download page](docs/images/05-github-desktop-branch.png)
-
 ---
 
 ## 3. Locate Power BI Workspace Files
@@ -113,24 +104,19 @@ In GitHub Desktop:
 - **Repository → Show in Finder** (Mac)
 - 
 ![GitHub Desktop download page](docs/images/06-github-desktop-clone.png)
-
 ---
 
 ### 3.2 Navigate to the Workspaces Directory
 
-Workspace files are stored under:
+GitHub reference:
 - https://github.com/Childrens-National-Hospital/edp-analytics/tree/devtest/workspaces
 ```text
 edp-analytics/
 └── workspaces/
 ```
 
+Workspace files are stored under:
 ![GitHub Desktop download page](docs/images/07-github-desktop-folder.png)
-
-GitHub reference:
-
-
-
 ---
 
 ### 3.3 Identify the Power BI Project File (.pbib)
@@ -179,7 +165,6 @@ In Power BI Desktop:
 2. Click **Change Source**
 
 ![GitHub Desktop download page](docs/images/13-databricks-host-path.png)
-
 ---
 
 ### 4.4 Enter Databricks SQL Warehouse Connection Details
@@ -201,7 +186,6 @@ adb-3049177421157142.2.azuredatabricks.net
 ![GitHub Desktop download page](docs/images/12-change-source.png)
 
 This connects the semantic model to the **team_data_product_management** SQL Warehouse.
-
 ---
 
 ### 4.5 Authenticate
@@ -219,7 +203,6 @@ If necessary, when prompted:
 ![GitHub Desktop download page](docs/images/15-refresh.png)
 
 ✅ If successful, report visuals will populate using data from Databricks.
-
 ---
 
 ## Troubleshooting
