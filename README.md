@@ -42,7 +42,7 @@ Before starting, ensure you have:
 
 Download GitHub Desktop from:
 
-https://desktop.github.com/
+https://desktop.github.com/download/
 
 ![GitHub Desktop download page](docs/images/01-github-desktop-download.png)
 
