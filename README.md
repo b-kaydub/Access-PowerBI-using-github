@@ -43,7 +43,8 @@ Download GitHub Desktop from:
 
 - https://desktop.github.com/download/
 
-**Screenshot (optional):** '/docs/images/01-github-desktop-download.png'
+![GitHub Desktop download page](docs/images/01-github-desktop-download.png)
+
 
 ---
 
