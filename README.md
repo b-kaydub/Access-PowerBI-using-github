@@ -119,7 +119,7 @@ In GitHub Desktop:
 ### 3.2 Navigate to the Workspaces Directory
 
 Workspace files are stored under:
-
+- https://github.com/Childrens-National-Hospital/edp-analytics/tree/devtest/workspaces
 ```text
 edp-analytics/
 └── workspaces/
@@ -129,7 +129,7 @@ edp-analytics/
 
 GitHub reference:
 
-- https://github.com/Childrens-National-Hospital/edp-analytics/tree/devtest/workspaces
+
 
 ---
 
@@ -147,13 +147,9 @@ Example:
 edp_workspace.pbib
 ```
 
-**Screenshot (optional):** `docs/images/09-pbib-highlight.png`
-
 This `.pbib` file typically contains:
-
-- Power BI report definition
-- Semantic model definition
-- Connection metadata (including data sources)
+![GitHub Desktop download page](docs/images/09-github-desktop-folder-location.png)
+![GitHub Desktop download page](docs/images/08-github-desktop-pbib.png)
 
 ---
 
